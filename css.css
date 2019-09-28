@@ -1,0 +1,57 @@
+*{	/*Les marges sont inclues dans la taille des boites*/
+	border : solid black 4px;
+	box-sizing : border-box;
+}
+
+#page{
+	background-color : black;
+	display : block;
+	margin : auto;
+	max-width : 1000px;
+}
+
+	#entete{
+		background-color : yellow;
+		height : 75px;
+	}
+
+		#bouton{ /* Bouton pour l'affichage téléphone */
+			background-color : red;
+			float : left;
+			
+		}
+
+		#logo{
+			background-color : orange;
+			width : 100px;
+			float : left;
+
+		}
+
+		#liensNav{ /*Liens de navigation entre les pages*/
+			background-color : red;
+			width : 150px;
+			float : left;
+		}
+		
+	#corps{
+		background-color : green;
+		height : 500px;
+		
+	}
+		
+		#lateral{ /* Menu de navigation latéral */
+			background-color : blue;
+			width : 25%;
+			float : left;
+		}
+		
+		#corpsTexte{
+			background-color : purple;
+			width : 75%;
+			float : left;
+		}
+		
+	#piedPage{
+		background-color : brown;
+	}

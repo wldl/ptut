@@ -6,7 +6,7 @@
 
 **Statut** : Construction du squelette HTML
 
-### **À faire** 
+## **À faire** 
 - [ ] Corriger les problèmes rencontrés.
 - [ ] Rendre l'affichage dynamique. (> faire disparaître le menu latéral, faire apparaître apparaître le bouton seulement sous certaines tailles)
 - [ ] Ajouter des choses à faire. 

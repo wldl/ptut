@@ -12,7 +12,7 @@ Articles choisis par Chloé au 02/10/2019
     - https://frama.link/GoUDQY4L
 
 - Le Figaro : _Une prothèse électronique permet de faire remarcher des singes paralysés_
-    - https://frama.link/SddTW5Tt
+    - https://frama.link/SddTW5Tt ***
 
 - Libération : _"Jacques Testart: «Le transhumanisme est une idéologie infantile»"_
     - https://frama.link/28XaU8nx
@@ -25,9 +25,9 @@ Articles choisis par Chloé au 02/10/2019
 ### Sciences :
 
 - Pour la science : _"De l'humain au transhumain"_
-    - https://frama.link/aeRHSNUx
+    - https://frama.link/aeRHSNUx ***
                     _"L’imposture du transhumanisme"_
     - https://frama.link/ND2594x6
 
 - Science humaines : _"Transhumanisme : en finir avec la nature humaine"_
-    - https://frama.link/r_jcj-W9
+    - https://frama.link/r_jcj-W9 ***

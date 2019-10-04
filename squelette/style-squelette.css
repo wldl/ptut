@@ -1,13 +1,8 @@
-*{	/*Les marges sont inclues dans la taille des boites*/
-	border : solid black 4px;
-	box-sizing : border-box;
-}
-
-#page{
-	background-color : black;
-	display : block;
-	margin : auto;
-	max-width : 1000px;
+.body{
+	background: rgb(33,84,103);
+	background: linear-gradient(141deg, rgba(33,84,103,1) 0%, rgba(96,36,180,1) 100%);
+	display: auto;
+	margin: auto;
 }
 
 	#entete{

@@ -16,5 +16,5 @@
 - [ ] Ajouter des choses à faire. 
 
 ### Pour la revue de presse
-- [ ] Départager le groupe et les articles en deux pour plus d'efficacité.
+- [x] Départager le groupe et les articles en deux pour plus d'efficacité.
 - [ ] Mettre en commun

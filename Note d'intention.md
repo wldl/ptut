@@ -18,7 +18,7 @@ Le public touché sur ce sujet est vaste car une personne quelconque peut venir 
 ## Lien avec ptut : 
 Le lien avec le projet tuteuré est le sujet d’étude qui est la science fiction. Nous avons voulu prendre le thème du transhumanisme qui est un sujet vaste et nous permet de poser plus d’hypothèses ainsi que des avis.
 
-De plus le transhumanisme est un sujet intéressant car c’est un sujet qui est déjà d’actualité.
+De plus le transhumanisme est un sujet intéressant du à son actualité qui est récente.
 
 ## Charte graphique :
 - couleurs

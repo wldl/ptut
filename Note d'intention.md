@@ -3,7 +3,6 @@
 
 ## Sujet : 
 Le sujet de notre site internet est le transhumanisme.
-
 L'intérêt de parler et de créer un site sur le transhumanisme est de présenter les différentes ensembles d’idées et de les mettre en relations avec la réalité actuelle. 
 
 Les avis sur le transhumanisme peuvent êtres aussi très variés, certaines personnes pensent que c’est une opportunitée d’avoir un corps amélioré et d’autres pensent que ce n’est pas raisonnable et qu’il y aurait trop de difficultées dans le futur avec le changement du corps aussi poussé.

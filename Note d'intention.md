@@ -13,7 +13,7 @@ C’est un futur qu'on vivra de plus en plus en mesure des améliorations et qui
 Toutefois une question se pose est de savoir à quel point veut-on que la technologie s'immisce dans nos vies ?
 
 ## Public :
-Le public touché sur ce sujet est varié car une personne quelconque peut venir voir et ou parler, comme un scientifique ou un philosophe peut y exposer ses idées et ou ses hypothèses.
+Le public touché sur ce sujet est vaste car une personne quelconque peut venir étudier et ou parler du sujet, comme un scientifique ou un philosophe peut y exposer ses idées et ou ses hypothèses.
 
 ## Lien avec ptut : 
 Le lien avec le projet tuteuré est le sujet d’étude qui est la science fiction. Nous avons voulu prendre le thème du transhumanisme qui est un sujet vaste et nous permet de poser plus d’hypothèses ainsi que des avis.

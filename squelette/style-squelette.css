@@ -7,7 +7,7 @@
 
 	#entete{
 		background-color : yellow;
-		height : 75px;
+		
 	}
 
 		#bouton{ /* Bouton pour l'affichage téléphone */
@@ -24,28 +24,41 @@
 		}
 
 		#liensNav{ /*Liens de navigation entre les pages*/
-			background-color : red;
-			width : 150px;
+			background-color : pink;
 			float : left;
+			width : 150px
+			
+		}
+		
+		#complement{
+			clear : both;
 		}
 		
 	#corps{
 		background-color : green;
 		height : 500px;
+		
 	}
+		#titre{/* Titre de l'article */
+			background-color : grey;
+			width : 100%;
+		}
 		
 		#lateral{ /* Menu de navigation latéral */
 			background-color : blue;
 			width : 25%;
 			float : left;
+			
 		}
 		
 		#corpsTexte{
 			background-color : purple;
 			width : 75%;
 			float : left;
+			
 		}
 		
 	#piedPage{
 		background-color : brown;
+		
 	}

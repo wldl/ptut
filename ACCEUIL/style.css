@@ -4,6 +4,7 @@
 }
 body{
 	font-family:"Segoe UI", sans-serif;
+	font-size: 30px;
 }
 
 .volet {
@@ -13,10 +14,19 @@ body{
 	background-color: #E6E2FF;
 	float:left;
 	height:100%;
-	width:20%;
+	width:30%;
+}
+#exliquervolet{
+	font-size: 10px;
 }
 ol{
 	padding-left:50px;
+}
+h1{
+	font-size: 50px;
+}
+h2{
+	font-size: 35px;
 }
 
 .texte{

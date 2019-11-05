@@ -10,11 +10,6 @@
 ### Pour le site web :
 - [ ] Corriger les problèmes rencontrés.
 - [ ] Rendre l'affichage dynamique. (> faire disparaître le menu latéral, faire apparaître apparaître le bouton seulement sous certaines tailles)
-- [x] Les boites contenantes (entête, corps) disparaissent lorsque l'on ne leur attribue pas d'hauteur. 
-- [ ] liensNav refuse catégoriquement d'afficher sa couleur de fond et semble ne pas réagir correctement.
-- [ ] Les boites ne supportent pas les marges (lateral et corpsTexte se mettent l'une au dessus de l'autre).
-- [ ] Ajouter des choses à faire. 
 
 ### Pour la revue de presse
-- [ ] Départager le groupe et les articles en deux pour plus d'efficacité.
 - [ ] Mettre en commun

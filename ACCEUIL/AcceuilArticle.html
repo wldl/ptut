@@ -12,40 +12,47 @@
 </head>
 <body>
 <div class="article" >
-	<!--navigator à gauche-->
-	<div class="volet" >
-		<!--le titre de navigation-->
-		<h2  class="menu"> TITRE PRICIPAL</h2>
-		<p id="exliquervolet">cliquez pour vous déplacer dans le text</p>
-		<!--titre d'article-->
-		<ol type = "I" class="menu"><li><h2>- Grandtitre1</h2></li>
-			<ol type = "i" class="titre"><li>- soustitre</li>
-										<li>- soustitre</li>
-										<li>- soustitre</li></ol></li>
-		<br>
-		<li><h2>- Grandtitre2</h2></li>
-			<ol type = "i" class="titre"><li>- soustitre</li>
-										<li>- soustitre</li>
-										<li>- soustitre</li></ol></li>
-		<br>
-		<li><h2>- Grandtitre3</h2></li>
-			<ol type = "i" class="titre"><li>- soustitre</li>
-										<li>- soustitre</li>
-										<li>- soustitre</li></ol>
-	</ol>
-	</div>
-	<div class="texte">
+
+<!-- PARTIE VOLET-->
+	
+		<div class="volet" id="volet">
+		
+			<!--Titre de la page-->
+			<h1 id="titreVolet">Titre page</h1>
+			<p class="sous-titre">cliquez pour vous déplacer dans le texte</p>
+			
+			<!--Article 1-->
+			<ol class="menu">
+				<li><h2>Titre Article</h2></li>
+					
+					<ol class="titre">
+						<li><h3>Titre d'axe 1<h3></li>
+							<ol class = "menu">
+								<li><h4>Titre de sous-axe</h4></li>
+							</ol>
+						
+					</ol>
+				
+			</ol>
+			</div>
+	
+<!-- PARTIE ARTICLE -->
+
+	<div id="texte">
 		<!--Les texte à droite-->
-		<h1>PremiereTitre</h1>
-		<!--soutitre 1-->
-		<p><u>sous-titre1</u></p>
-		<br>
-		<p>le contenu de premier contenu</p>
+		<h2>Titre article</h2>
+		<p>texte texte <em>emphase</em> texte texte</p>
+		
+		<h3>Titre axe</h3>
+		<p>texte texte <a href="http://www.google.com">lien internet</a> texte texte</p>
+		
+		<h4>Titre sous axe</h4>
+		<p>texte texte <strong>forte emphase</strong> texte texte</p>
 
-
-		<strong>les phrases importantes</strong>
-		<a href="http://www.google.com">les site neccessaire</a>
+		
+		
 	</div>
+	
 </div>
 
 

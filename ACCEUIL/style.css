@@ -1,0 +1,37 @@
+*{
+	margin : 0 ;
+	padding: 0 ;
+}
+body{
+	font-family:"Segoe UI", sans-serif;
+	font-size: 30px;
+}
+
+.volet {
+	padding:15px;
+	padding-top: 35px;
+	border : 0.5px solid  gray;
+	background-color: #E6E2FF;
+	float:left;
+	height:100%;
+	width:30%;
+}
+#exliquervolet{
+	font-size: 15px;
+}
+ol{
+	padding-left:60px;
+}
+h1{
+	font-size: 50px;
+}
+h2{
+	font-size: 35px;
+}
+
+.texte{
+	padding:35px;
+	background-color: white;
+	float:left;
+	width: auto;
+}

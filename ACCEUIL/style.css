@@ -1,3 +1,17 @@
+/*A FAIRE :
+	
+	Ajouter la barre de titre et le fil d'arianne
+	Dimensioner correctement les div
+	Corriger les marges/padding des titres et du texte (article et navbar)
+	Ajouter la navbar superieure
+	Ajouter les ancres à la navbar latérale
+	
+	...pour aller plus loin :
+	Faire disparaître la navbar en responsive design
+	Rendre la complétition de la navbar latérale automatique
+
+*/
+
 /*GENERAL*/
 	*{
 	margin : auto ;
@@ -12,134 +26,121 @@
 	background-color : black;
 	}
 	
-	h1, h2, h3, h4{
-	font-family : "Times New Roman";
-	}
+	/*TEXTE*/
 	
 	p{
 	text-align : justify;
 	}
-
 	
 	.sous-titre{
 	font-size: 14px;
 	font-style : italic; 
 	}
 	
-	h2{/*titre d'article*/
-	margin-left : 20px;
-	margin-top : 10px;
-	margin-bottom : 10px;
+	/*TITRES*/
 	
+	/*Aspect*/
+	h1, h2, h3, h4{
+	font-family : "Times New Roman";
+	}
+	
+	h2{
 	font-size : 25px;
-	text-decoration : underline 2px;
-	
+	text-decoration : underline 1.5px;	
 	}
 	
-	h3{/*titre d'axe*/
-	margin-left : 30px;
-	margin-top : 7px ;
-	margin-bottom : 7px;
-	
+	h3{
 	font-size: 22px;
-	
-	
 	}
 	
-	h4{/*titre de sous axe*/
-	margin-left : 40px;
-	margin-top : 5px;
-	margin-bottom : 5px;
+	h4{
+	font-size : 19px;
+	}
 	
-	font-size: 19px;
-	font-style : italic;
+	/*Numérotation des titres*/
 	
+	h2:before{
+	}
+		
+	h3:before{
+		content :counter(h3, upper-roman) " / ";
+	}
+		
+	h4:before{
+		content :counter(h4) " - ";
+	}	
 	
+	/*Compteurs de numérotation des titres*/
+	h2{
+	counter-reset : h3 h4;
+	counter-increment : h2;
+	}
+	
+	h3{
+	counter-reset : h4;
+	counter-increment : h3;
+	}
+	
+	h4{
+	counter-increment : h4;
+	}
+
+/*BANDEAU TITRE*/
+
+	#bandeauTitre{
+		min-height: 100px;
+		background-color : #f0f0f0;
+		border-bottom : solid black 3px;
+	}
+	
+	#titrePage{
+	font-size: 30px;
+	padding-left : 150px;
+	text-align : center;
+	}
+	
+	ul li{
+	display : inline;
+	}
+	ul li a:after{
+	content : " > ";
 	}
 
 /*VOLET*/
 	
 	#volet {
+	/*Reset des numérotations de titres*/
+	counter-reset : h2 h3 h4;
+	
+	/*paramètres graphiques*/
 	color : white;
 	
 	padding:15px;
 	padding-top: 35px;
-	border-right : 2px solid  gray;
-	border-bottom : 2px solid  gray;
-	border-top : 2px solid  gray;
 	
 	background-color: #386890;
 	
 	float:left;
-	
-	/*
-	Petite galère à trouver comment faire ceci : un bloc de 250px pour le volet
-	et la page de texte qui s'adapte a la taille globale, avec le volet qui disparaît
-	sur telephone
-	
-	Problème également pour que la zone de l'article s'étende à toute la page visible
-	*/
-	height:100%;
 	width : 250px;
 	}
-
-	#titreVolet{
-	font-size: 30px;
-	border-bottom : 2px solid white;
-	}
 	
-	/*Titres cliquables*/
-		
-		/*
-		Problème : les numeros ne sont pas inclus dans les écarts
-		du texte
-		De plus, les écarts entre les listes et les sous-listes ne
-		s'accumulent pas automatiquement (par opposision à l'exemple
-		en dessous)
-		
-			I/liste
-				1)sous liste
-				2)sous liste
-				3)sous liste
-			II/liste
-				1)sous liste
-		*/
-		
-		ol{
-		margin-left : 15px;
-		list-style-type: none;
-		}
-		
-		ol ol{
-		list-style-type: upper-roman;
-		}
-		
-		ol ol ol{
-		list-style-type: decimal;
-		}
-		
-		ol h1,ol h2, ol h3, ol h4{
-		margin-left : 0px;
-		}
-		
-		
+	/*Titres*/
+	
 	
 /*ARTICLE*/
-
+	
 	#texte{
+	/*Reset des numérotations de titres*/
+	counter-reset : h2 h3 h4;
+	
+	/*paramètres graphiques*/
 	padding:35px;
 	background-color: #faf0e6;
-	float:left;
-	/*
-	Petite galère à trouver comment faire ceci : un bloc de 250px pour le volet
-	et la page de texte qui s'adapte a la taille globale, avec le volet qui disparaît
-	sur telephone
-	
-	Problème également pour que la zone de l'article s'étende à toute la page visible
-	*/
+	width : 100%;
 	width: available;
 	}
 	
+	/*MISES EN VALEUR*/
 	em{
 	color : #e66600 
 	}
@@ -151,4 +152,29 @@
 	
 	strong{
 	color : #e66600 
+	}
+	
+	/*TITRES*/
+	
+	h2{/*titre d'article*/
+	padding-left : 30px;
+	margin-top : 20px;
+	margin-bottom : 20px;
+	
+	
+	
+	}
+	
+	h3{/*titre d'axe*/
+	padding-left : 60px;
+	margin-top : 15px ;
+	margin-bottom : 15px;
+	
+	}
+	
+	h4{/*titre de sous axe*/
+	padding-left : 90px;
+	margin-top : 10px;
+	margin-bottom : 10px;
+	
 	}

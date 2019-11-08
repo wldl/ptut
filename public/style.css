@@ -208,6 +208,12 @@ html, body {
 		text-decoration : underline;
 	}
 	
+	.titreVolet{
+		text-align : center;
+		font-size : 130%;
+		text-decoration : underline;
+	}
+	
 	/*Titres*/
 	
 		.volet a {
@@ -215,7 +221,6 @@ html, body {
 			color: black;
 		}
 
-<<<<<<< HEAD
 		.volet ul a h2 {
 			padding-left: 0.5em;
 		}
@@ -225,12 +230,16 @@ html, body {
 		}
 
 		.volet ul a h4{
-			padding-left: 2.5em;
-=======
+            padding-left: 2.5em;
+        }
+
+		.volet a h2 {
+			padding-left: 0px;
+            font-size : 20px;
+        }
 		.volet a h2 {
 			padding-left: 0px;
 			font-size : 20px;
->>>>>>> 618a69a62bf018cdb682dad33f583a212c0927db
 		}
 	
 	/*Fil d'arianne*/

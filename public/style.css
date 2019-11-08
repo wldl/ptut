@@ -208,12 +208,6 @@ html, body {
 		text-decoration : underline;
 	}
 	
-	.titreVolet{
-		text-align : center;
-		font-size : 130%;
-		text-decoration : underline;
-	}
-	
 	/*Titres*/
 	
 		.volet a {
@@ -221,22 +215,6 @@ html, body {
 			color: black;
 		}
 
-		.volet ul a h2 {
-			padding-left: 0.5em;
-		}
-		
-		.volet ul a h3{
-			padding-left: 1.5em;
-		}
-
-		.volet ul a h4{
-            padding-left: 2.5em;
-        }
-
-		.volet a h2 {
-			padding-left: 0px;
-            font-size : 20px;
-        }
 		.volet a h2 {
 			padding-left: 0px;
 			font-size : 20px;
@@ -266,9 +244,9 @@ html, body {
 	.article h2{
 		padding-left : 1em;
 	}
-	.article h3{
+/**	.article h3{
 		
-	}
+	}**/
 	.article h4{
 		padding-left : 1em;
 	}

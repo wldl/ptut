@@ -32,32 +32,34 @@
     <div class="contenu">
 		
 		<!--Volet de navigation-->
-        <div class="volet">
-            <p class="titreVolet">Volet de navigation</p>
+        <div class="outer">
 			
-			<!--Fil d'ariane-->
-			
-            <div class="fil-ariane">
-                
-                <ul>
-                   <li><p><a href="index.html">Accueil</a></p></li>
-				   <li><p><a href="index.html">Le transhumanisme c'est quoi ?</a></p></li>
-                </ul>
-			</div>
-            
-            <!--Ancres articles-->
-				<div class="titreCliquable">
-					<a href="#article1"><h2>Orlan, artiste du corps</h2></a>
-					<a href="#article2"><h2>Le transhumanisme, une idéologie infantile</h2></a>
-				</div>
+			<label for="toggle">Cacher le volet</label>
+            <input type="checkbox" name="rwo" id="toggle">
+                <div class="inner">
+                    <div class="hide">
+                        <div class="volet">
+                          <h2>Volet de navigation</h2>
+                            <div class="fil-ariane">
+                                <nav aria-label="Breadcrumb" class="breadcrumb">
+                                <ul>
+                                    <li><a href="index.html">Accueil</a></li>
+                                    <li><span aria-current="page">Accueil</span></li>
+                                </ul>
+                                </nav>
+                            </div>
+        <!-- Volet de navigation de la page d'Accueil ==> Article 1 et 2 -->
+                                    <a href="#article1"><h3>Corps : les cyber pouvoirs de demain ? </h3></a>
+                                    <a href="#article2"><h3>Le transhumanisme : un futur d'humains hybrides ?</h3></a>
+									<a href="#article3"><h3>Transhumanisme l'élite du futur ?</h3></a>
+                    </div>
+                </div>	
 				
-				
-        </div>
         <div class="lecture">
 		
             <!-- Article 1-->
 		<div class="article" id="article1">
-		<h2>Science et vie- Corps "augmentés" : bientôt des cyberpouvoirs pour tous ? </h2>
+		<h2>Corps : les cyber pouvoirs de demain ? </h2>
 		
 				
 					<p>Plusieurs chercheurs veulent créer des implantations avec des gènes de chauve-souris qui permettraient aux humains de s’orienter dans la nuit avec des interférences dans le coprs.
@@ -70,7 +72,7 @@
 		
 		<!-- Article 2-->
 		<div class="article" id="article2">
-		<h2>Neonmag- Transhumanisme, métissage… allons-nous tous devenir hybride dans le futur ?</h2>
+		<h2>Le transhumanisme : un futur d'humains hybrides ?</h2>
 			
 			<h3>Les découvertes</h3>
 			
@@ -96,7 +98,7 @@
 		
 		<!-- Article 3-->
 		<div class="article" id="article3">
-		<h2>UP Magazine- Comment le transhumanisme voudrait fabriquer l’élite du futur </h2>
+		<h2>Transhumanisme l'élite du futur ?</h2>
 		
 				
 					<p>Le transhumanisme permettrait d’améliorer des capacités cognitives. 
@@ -108,7 +110,9 @@
 					
 					En continuité, les pays se ruent à la création d’une IA super-intelligente ce qui cause une nature compétitive et qui pourrait se traduire par une course aux armements.</p>
 		</div>
-		
+		</div>
+
+		</div>
         </div>
     </div>
 

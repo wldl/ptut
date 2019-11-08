@@ -188,7 +188,10 @@ html, body {
         padding: 10px;
         margin: 0;
       }
-
+	
+	.outer{
+		margin-top : 20px;
+	}
       .outer .follow {
         clear: both;
       }
@@ -207,20 +210,20 @@ html, body {
 	
 	/*Titres*/
 	
-		.volet ul a {
+		.volet a {
 			text-decoration: none;
 			color: black;
 		}
 
-		.volet ul a h2 {
+		.volet a h2 {
 			padding-left: 0.5em;
 		}
 		
-		.volet ul a h3{
+		.volet a h3{
 			padding-left: 1.5em;
 		}
 
-		.volet ul a h4{
+		.volet a h4{
 			padding-left: 2.5em;
 		}
 	
@@ -246,7 +249,7 @@ html, body {
 	
 	.lecture {
 
-		max-width: 80%;
+		width: 80%;
 		padding: 2em;
 		text-align : justify;
 		margin : auto;
@@ -259,11 +262,11 @@ html, body {
 	.article{
 		padding-top: 1em;
 		margin-bottom: 2em;
-		border-bottom : solid black 2px;
 	}
 	
 	.article h2{
 		padding-left : 1em;
+		text-decoration : underline;
 	}
 	.article h4{
 		padding-left : 1em;

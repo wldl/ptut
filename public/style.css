@@ -245,13 +245,14 @@ html, body {
 	.article h2{
 		padding-left : 1em;
 	}
-	.article h3{
-		
-	}
 	.article h4{
 		padding-left : 1em;
 	}
 	
-	.article .sousTitre{
-		
+	.aboutUs ul li { 
+		list-style: none;
+	}
+
+	.biblio ul li{
+		list-style: none;
 	}

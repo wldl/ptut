@@ -24,6 +24,7 @@
 	font-size: 15px;
 	max-width : 1000px;
 	background-color : black;
+	height : 100%;
 	}
 	
 	/*TEXTE*/
@@ -88,9 +89,9 @@
 /*BANDEAU TITRE*/
 
 	#bandeauTitre{
-		min-height: 100px;
-		background-color : #f0f0f0;
-		border-bottom : solid black 3px;
+	min-height: 100px;
+	background-color : #f0f0f0;
+	border-bottom : solid black 3px;
 	}
 	
 	#titrePage{
@@ -101,7 +102,9 @@
 	
 	ul li{
 	display : inline;
+	vertical-align : bottom;
 	}
+	
 	ul li a:after{
 	content : " > ";
 	}
@@ -117,11 +120,13 @@
 	
 	padding:15px;
 	padding-top: 35px;
+	margin-right : 25px;
 	
 	background-color: #386890;
 	
 	float:left;
 	width : 250px;
+	height : 100%
 	}
 	
 	/*Titres*/
@@ -129,6 +134,9 @@
 	
 /*ARTICLE*/
 	
+	#article, #texte, #volet{
+		height : 100%;
+	}
 	#texte{
 	/*Reset des numérotations de titres*/
 	counter-reset : h2 h3 h4;
@@ -137,7 +145,6 @@
 	padding:35px;
 	background-color: #faf0e6;
 	width : 100%;
-	width: available;
 	}
 	
 	/*MISES EN VALEUR*/

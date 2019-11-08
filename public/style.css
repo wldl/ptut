@@ -24,6 +24,14 @@ html, body {
 		left: 0px;
 		z-index: 0;
 	}
+	
+	.headerArticle {
+		width: 100%;
+		height: 300px;
+		top: 0px;
+		left: 0px;
+		z-index: 0;
+	}
 
 	.contenu {
 		width: 100%;
@@ -237,9 +245,11 @@ html, body {
 	
 	
 	.lecture {
+
 		max-width: 80%;
 		padding: 2em;
 		text-align : justify;
+		margin : auto;
 	}
 
 	.lecture input[type="checkbox"]:checked {

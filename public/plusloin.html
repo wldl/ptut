@@ -36,32 +36,24 @@
 	<div class="contenu">
 		
 		<!--Volet de navigation-->
-        <div class="volet">
-            <p class="titreVolet">Volet de navigation</p>
-			
-			<!--Fil d'ariane-->
-			
-            <div class="fil-ariane">
-                <nav aria-label="Breadcrumb" class="breadcrumb">
-                <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><span aria-current="page">Pour aller plus loin</span></li>
-                </ul>
-                </nav>
-            
-            <!--Ancres articles-->
-				<div class="titreCliquable">
-					<a href="#article1"><h2>Orlan, artiste du corps</h2></a>
-					<a href="#article2"><h2>Le transhumanisme, une idéologie infantile</h2></a>
-				</div>
-				
-				
-        </div>
+        <div class="outer">
+			<label for="toggle">Cacher le volet</label>
+            <input type="checkbox" name="rwo" id="toggle">
+                <div class="inner">
+                    <div class="hide">
+                        <div class="volet">
+                          <h2>Volet de navigation</h2>
+                            
+        <!-- Volet de navigation de la page d'Accueil ==> Article 1 et 2 -->
+                                    <a href="#article1"><h3>Amélioration, progrès et ensuite ?</h3></a>
+                                    <a href="#article2"><h3>Humains-machines : vers un âge des cyborgs ?</h3></a>
+                    </div>
+                </div>	
         
 	<div class="lecture">		
 		<!-- Article 6-->
-		<div class="article" id="article6">
-		<h2>Pour la science- Amélioration, progrès et ensuite ?</h2>
+		<div class="article" id="article1">
+		<h2>Amélioration, progrès et ensuite ?</h2>
 			
 			<h3>Amélioration de l’être humain</h3>
 			
@@ -83,11 +75,12 @@
 				
 					<p>Il est certain que l’intelligence artificielle a fait ces dernières années des progrès fulgurants avec l’apparition des nouvelles méthodes d’apprentissages fondées sur des algorithmes informatiques sophistiqués. 
 					Ces progrès nous permettraient de pouvoir connecter l’humain et l’ordinateur et ainsi pouvoir penser plus vite que la normale d’un cerveau d’homme.
-		</p></br>
-		
-		<P> Si vous souhaitez en savoir plus sur le transhumanisme et en quoi il consiste voici une vidéo explicative.</p></br>
+		</p>
+		</div>
+		<div class="article" id="article2">
+		<h2>Humains-machines : vers un âge des cyborgs ?</h2>
          <iframe width="560" height="315" src="https://www.youtube.com/embed/VoijOze5qoY?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div></div>
+	</div></div></div>
 </div>
 </body>
 </html>

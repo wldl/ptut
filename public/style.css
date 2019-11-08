@@ -134,24 +134,78 @@ html, body {
 				height: 100px;
 				text-align: left;
 				padding-left: 15%;
-				padding-top: 7.5%;
+				padding-top: 5.5%;
 				text-align : justify;
 			}
 			
 			.illustration {
 				padding-left: 40%;
-				padding-top: 7.5%;
+				padding-top: 5.5%;
 			}
 
 /*VOLET DE NAVIGATION*/
 
 	.volet {
-		margin-left: 1em;
+        margin-left: 1em;
+        margin-top: 10px;
 		padding: 1em; 
 		background-color: rgba(174, 191, 204, 0.781);
-		max-width: 20%;
 		border-radius: 0.3em;
+        
+    }
+    
+    label {
+        display: block;
+        margin: 20px 0 0;
+        padding-left: 10px;
+    }
 
+      label:hover {
+        text-decoration: underline;
+    }
+
+      input {
+        position: absolute;
+        left: -999em;
+    }
+
+
+      .inner {
+        position: relative;
+        overflow: hidden;
+    }
+
+      .hide {
+        float: left;
+        clear: both;
+        opacity: 1;
+        overflow: hidden;
+        transform: translateY(0);
+        margin: 0;
+        transition: all 1s linear, margin 0s linear 0s;
+    }
+
+      .hide p {
+        padding: 10px;
+        margin: 0;
+      }
+
+      .outer .follow {
+        clear: both;
+      }
+      
+      .outer input[type="checkbox"]:checked + .inner .hide {
+        opacity: 0;
+        transform: translateY(-100%);
+        margin-bottom: -999em;
+        transition: all 1s linear, margin 0s linear 1.5s;
+      }
+      
+	
+	.titreVolet{
+		text-align : center;
+		font-size : 130%;
+		text-decoration : underline;
 	}
 	
 	.titreVolet{
@@ -167,6 +221,22 @@ html, body {
 			color: black;
 		}
 
+		.volet ul a h2 {
+			padding-left: 0.5em;
+		}
+		
+		.volet ul a h3{
+			padding-left: 1.5em;
+		}
+
+		.volet ul a h4{
+            padding-left: 2.5em;
+        }
+
+		.volet a h2 {
+			padding-left: 0px;
+            font-size : 20px;
+        }
 		.volet a h2 {
 			padding-left: 0px;
 			font-size : 20px;

@@ -145,7 +145,8 @@ html, body {
 
 	.volet {
         margin-left: 1em;
-        margin-top: 10px;
+		margin-top: 10px;
+		margin-right: 2em;
 		padding: 1em; 
 		background-color: rgba(174, 191, 204, 0.781);
 		border-radius: 0.3em;
@@ -197,8 +198,12 @@ html, body {
         transform: translateY(-100%);
         margin-bottom: -999em;
         transition: all 1s linear, margin 0s linear 1.5s;
-      }
-      
+	  }
+	  
+	  .outer input[type="checkbox"]:checked + .lecture {
+        min-width: 90%;
+	  }
+	  
 	
 	/*Titres*/
 	
@@ -240,15 +245,21 @@ html, body {
 	
 	
 	.lecture {
-		max-width: 950px;
+
+		max-width: 80%;
 		padding: 2em;
 		text-align : justify;
 		margin : auto;
 	}
+
+	.lecture input[type="checkbox"]:checked {
+		
+	}
 	
 	.article{
+		padding-top: 1em;
 		margin-bottom: 2em;
-		border-top : solid black 2px;
+		border-bottom : solid black 2px;
 	}
 	
 	.article h2{

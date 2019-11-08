@@ -24,12 +24,21 @@ html, body {
 		left: 0px;
 		z-index: 0;
 	}
+	
+	.headerArticle {
+		width: 100%;
+		height: 300px;
+		top: 0px;
+		left: 0px;
+		z-index: 0;
+	}
 
 	.contenu {
 		width: 100%;
 		height: 100%;
 		z-index: 0;
 		display: flex;
+		margin-top : 20px;
 	}
 	
 	.nav {
@@ -38,6 +47,21 @@ html, body {
 		width: 100%;
 		height: 100px; 
 		text-align: center;
+	}
+	
+	.bandeauTitrePage{
+		width : 100%;
+		margin-top : 90px;
+		padding-top: 10px;
+		padding-bottom:10px;
+		padding-right:30px;
+		padding-left:30px;
+		background-color : rgba(174, 191, 204, 0.781);
+		
+	}
+	.titrePage{
+		margin : auto;
+		text-align : center;
 	}
 
 	/*BARRE DE NAVIGATION*/
@@ -130,40 +154,30 @@ html, body {
 
 	}
 	
+	.titreVolet{
+		text-align : center;
+		font-size : 130%;
+		text-decoration : underline;
+	}
+	
 	/*Titres*/
 	
-		.volet ul a {
+		.volet a {
 			text-decoration: none;
 			color: black;
 		}
 
-		.volet ul a h2 {
-			padding-left: 0.5em;
-		}
-		
-		.volet ul a h3{
-			padding-left: 1.5em;
-		}
-
-		}
-		.volet ul a h4{
-			padding-left: 2.5em;
+		.volet a h2 {
+			padding-left: 0px;
+			font-size : 20px;
 		}
 	
 	/*Fil d'arianne*/
-	
-		.breadcrumb ul {
-		display: flex;
-		list-style-type: none;
-		}
 			
-		.breadcrumb li::before {
-			content: " → ";
+		.fil-ariane ul li {
+			list-style-type: " > ";
 			padding-left: 4px;
-		}
-		
-		.breadcrumb li:first-child::before {
-			content: "  ";
+			display : inline;
 		}
 	
 /*ARTICLES*/
@@ -189,6 +203,23 @@ html, body {
 		padding-left : 1em;
 	}
 	
-	.article .sousTitre{
-		
+	
+
+/*ANNEXE ET BIBLIOGRAPHIE*/
+
+	/*ABOUT US*/
+	.aboutUs{
+		margin : auto;
+		max-width : 1000px;
+	}
+	
+	.logoIUT{
+		height : 100px;
+	}
+	
+	/*BIBLIOGRAPHIE*/
+	
+	.biblio{
+		margin : auto;
+		max-width : 1000px;
 	}

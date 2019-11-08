@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Le transhumanisme - S1F - PTUT / Ariticle</title>
+</head>
+<body>
+	<div class="menu">
+	<p>menu ici</p>
+	</div>
+	<div class="article">
+		<a class="route" href="">Parent</a>
+		<a class="route">-titre d'article</a>
+		<h1 id="GrandT">Titre d'article</h1>
+		<p id="resume">Resume d'article</p>
+		<p id="auteur">auteur</p>
+		<p>les contenu</p>
+		<h3 class="sousT">sousT</h3>
+		
+	</div>
+	<div class="piedP">
+	</div>
+
+</body>
+
+
+
+</html>
+------css
+*{
+	margin:0px auto;
+	padding: 0 ;
+}
+body{
+	background-color:#205062;
+	
+}
+.menu{	
+	height: 60px;
+	width: 100%;
+	border: 0.5px solid #56121520;
+	background-color: white;
+
+}
+.article{
+	margin-top:30px;
+	padding:40px;
+	height:100%;
+	width: 80%;
+	border:0.5px solid gray;
+	background-color:#E6E2FF;
+	}
+.route{
+	display:block;
+	float:left;
+}
+#GrandT{
+	margin:30px 0px;
+}
+#resume{
+	font-size:20px;
+	font-style:italic;
+	margin-bottom:10px;
+}

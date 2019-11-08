@@ -1,3 +1,14 @@
+<!-- CE QU'IL RESTE À FAIRE
+    - Faire fonctionner les ancres dans le volet de navigation
+    - Faire un pied de page (Noms, contact, logo de l'IUT)
+    - Faire les autres pages et faire le fil d'ariane correspondant
+    - Ajouter une vidéo
+    - Ajouter un lien externe
+    - Montrer du texte emphasé
+    - Voir s'il ne manque pas des critères à remplir
+
+-->
+
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
@@ -9,10 +20,11 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+<div class="background">
     <div class="header">
         <div class="nav">
             <div class="logo">
-                <img src="C:\Users\X\Documents\GitHub\ptut\public\images\5mtxtn4qrtt21.png" >
+                <img src="images\logo.png" >
             </div>
             <div class="links">
                 <ul>
@@ -24,12 +36,64 @@
             <div class="titre">
                 <h1>Le transhumanisme<br>Projet tuteuré de S1</h1>
             </div>
+            <div class="accroche">
+                <h3>Le transhumanisme, bla bla</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h4> Intéressé(e) ? Lisez plus bas !</h4>
+            </div>
+            <div class="illustration">
+                <img src="images\transhumanism.png" width="400px">
+            </div>
         </div>
     </div>
     <div class="contenu">
-        
-    </div>
+        <div class="volet">
+            <h2>Volet de navigation</h2>
+            <div class="fil-ariane">
+                <nav aria-label="Breadcrumb" class="breadcrumb">
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><span aria-current="page">Accueil</span></li>
+                        </ul>
+                </nav>
+            </div>
+                <!-- Volet de navigation de la page d'Accueil ==> Article 1 et 2 -->
+                <ul><h2>Page d'accueil</h2>
+                   <a href="#article1"><h2>Article 1</h2></a>
+                     <a href="#titre1a1"><h3>I. Titre 1</h3></a>
+                        <a href="#sstitre1a1"><h4>i.   Sous-titre 1</h4></a>
+                        <a href="#sstitre2a1"><h4>ii.  Sous-titre 2</h4></a>
+                        <a href="#sstitre3a1"><h4>iii. Sous-titre 3</h4></a>
+                   <a href="#article2"><h2>Article 2</h2></a>
+                     <a href="#titre1a2"><h3>I. Titre 1</h3></a>
+                        <a href="#sstitre1a2"><h4>i.   Sous-titre 1</h4></a>
+                        <a href="#sstitre2a2"><h4>ii.  Sous-titre 2</h4></a>
+                        <a href="#sstitre3a2"><h4>iii. Sous-titre 3</h4></a></ul>
+                        <p class="indiquer">cliquez pour vous déplacer dans le texte</p>
+        </div>
+        <div class="lecture">
+            		<!-- Article 1 -->
+		    <h2>Le Monde >> 
+                <br>Orlan, artiste : «Mon corps est devenu un lieu public de débat» </h2></br>
+                <p>Une artiste plasticienne, Orlan, a décidé d’utiliser son corps pour en faire un matériel de travail en faisant de la chirurgie esthétique. 
+Elle a fait cette démarche pour revendiquer les standards de beauté et elle montre qu’elle est maître de son propre corps.
+Le body art n’est pour elle pas un projet de société mais un projet d’art c’est donc pour cela qu’elle fait des conférences explicatives sur son choix de transformer son corps.
+Orlan a déjà eu plusieurs commentaires disant qu’elle n’était pas une fille qui apporté la prestence cependant ce n’est pas quelque chose qu’elle cherche de son côté mais plutôt de montrer qu’une femme peut être belle tout en choisissant de transformer son corps.</p>
+</br>		
+                    <!-- Article 2 -->
+             <h2>Liberation >>
+                 <br>Jacques Testart: «Le transhumanisme est une idéologie infantile» </h2>
+                 <h3>L’intelligence artificielle</h3>
+                    <p>Jacques TESTART est un biologiste connu pour être le « père scientifique du premier bébé-éprouvette ».
+Selon lui, l’intelligence artificielle va largement dépasser l’intelligence humaine car elle va s’auto-améliorer et résoudre les problèmes de l’humanité.</p></br>
+                <h3>L’immortalité</h3>
+                    <p>L’immortalité, l’intelligence supérieure ou le héros imbattable » ne sont que de rèves enfantins et qui ne peuvent être atteint avec le transhumanisme.
+L’immortalité n’est pas envisagable scientifiquement et philosophiquement parlant car il y a toujours de nouvelles maladies et de nouveaux virus. De plus, ne jamais mourir revindrait à s’ennuyer tout au long des journées car arrivé à une période l’humain aura fait tout ce qui est dans son possible de faire. </br>
+<strong>De nos jours, on utilise la génétique pour détruire des espèces et mettre des gènes tueurs.</strong></p></br>
 
+        </div>
+    </div>
+</div>
 
 
 </body>

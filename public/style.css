@@ -131,8 +131,8 @@ html, body {
 			
 			.bandeauTitrePage{
 				width : 100%;
-				margin-top : 100px;
-				margin-bottom : 20px;
+				margin-top : 80px;
+				margin-bottom : 60px;
 				background-color : rgba(174, 191, 204, 0.781);
 				padding : 20px;
 			}
@@ -240,6 +240,9 @@ html, body {
 			content: "  ";
 		}
 	
+	.fil-ariane ul li {
+		list-style: none;
+	}
 /*ARTICLES*/
 	
 	

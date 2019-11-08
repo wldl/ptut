@@ -1,14 +1,19 @@
 /*A FAIRE :
 	
-	Ajouter la barre de titre et le fil d'arianne
-	Dimensioner correctement les div
-	Corriger les marges/padding des titres et du texte (article et navbar)
-	Ajouter la navbar superieure
+	*Allonger le volet jusqu'en bas
+	*Ajouter un cadre global à la page (deux border pour marquer délimitation sur larges
+	écrans)?
+	
+	Terminer de gérer les marges et padding
+	*Gérer les marges et le pading des titres de gauche séparément de ceux de droite
+	
+	*Ajouter la navbar superieure
 	Ajouter les ancres à la navbar latérale
 	
 	...pour aller plus loin :
-	Faire disparaître la navbar en responsive design
-	Rendre la complétition de la navbar latérale automatique
+	*Rendre le volet de navigation retractable, et ajuster la taille de la zone texte
+	selon la position du volet
+	*Rendre la complétition de la navbar latérale automatique
 
 */
 
@@ -17,14 +22,19 @@
 	margin : auto ;
 	padding: 0 ;
 	box-sizing : border-box;
+	height : fit-content;
+	width : fit-content;
 	}
 	
 	body{
 	font-family:"Segoe UI", sans-serif;
 	font-size: 15px;
 	max-width : 1000px;
-	background-color : black;
-	height : 100%;
+	}
+	
+	#page{
+	border : solid black 3px;
+	background-color : yellow;
 	}
 	
 	/*TEXTE*/
@@ -96,7 +106,6 @@
 	
 	#titrePage{
 	font-size: 30px;
-	padding-left : 150px;
 	text-align : center;
 	}
 	
@@ -118,15 +127,15 @@
 	/*paramètres graphiques*/
 	color : white;
 	
-	padding:15px;
-	padding-top: 35px;
-	margin-right : 25px;
+	//padding:15px;
+	//padding-top: 35px;
+	//margin-right : 25px;
 	
 	background-color: #386890;
 	
-	float:left;
-	width : 250px;
-	height : 100%
+	float : left;
+	width : 25%;
+	height : 100%;
 	}
 	
 	/*Titres*/
@@ -134,17 +143,19 @@
 	
 /*ARTICLE*/
 	
-	#article, #texte, #volet{
+	/*#article, #texte, #volet{
 		height : 100%;
-	}
+	}*/
 	#texte{
 	/*Reset des numérotations de titres*/
 	counter-reset : h2 h3 h4;
 	
 	/*paramètres graphiques*/
-	padding:35px;
+	//padding:35px;
 	background-color: #faf0e6;
-	width : 100%;
+	
+	float : left;
+	width:75%;
 	}
 	
 	/*MISES EN VALEUR*/
